@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    background-color: #ffffff;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    cursor: pointer !important;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+p {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: Gilroy-Bold;
+}
+
+h2 {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    margin: 45px 0 45px 0;
+}
+
+h3 {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0;
+    padding: 100px 0 45px 0;
+}
+
+.wrapper {
+    width: 944px;
+    height: 4680px;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 18px;
+}
+
+nav {
+    margin: 33px 0 32px 0;
+}
+
+nav a {
+    color: #000000;
+    padding-top: 50px;
+    margin-right: 155px;
+    font-size: 17px;
+}
+
+#Contacts {
+    margin-right: 0;
+}
+
+
+#logo img {
+    width: 100.51px;
+    height: 95.17px;
+    margin: 35px 0 30px -10px;
+    cursor: pointer !important;
+}
+
+.container p {
+    position: relative;
+    top: -107px;
+    text-align: right;
+}
+
+#photo {
+    width: 943.61px;
+    height: 387px;
+    margin: -73px 0 175px 0;
+}
+
+#AboutMe {
+    width: 1400px;
+    height: 218px;
+    font-family: Gilroy-Medium;
+    text-align: center;
+    color: black;
+    color: #000000;
+    font-size: 18px;
+}
+
+.container1 {
+	 position: relative;
+	 display: flex;
+	 justify-content: center;
+    flex-direction: column;
+    right: 26%;
+    width: 1480px;
+    height: 410px;
+    background-color: #F6F6F6;
+    margin: 0;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #828282;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image .photo {
+    position: relative;
+    left: 22%;
+    width: 89px;
+    height: 89px;
+    margin-top: 60px;
+}
+
+.container2 p {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.image .reating {
+    /*    margin-bottom: 111px;*/
+}
+
+.image2 {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image2 .photo {
+    position: relative;
+    left: 22%;
+    width: 89px;
+    height: 89px;
+    margin-top: 60px;
+}
+
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    right: 26%;
+    background-color: #F6F6F6;
+    width: 1445px;
+    height: auto;
+}
+
+.portfolio p {
+    padding: 45px 0 99px 0;
+    text-decoration-line: underline;
+}
+
+#Contacts {
+    padding: 114px 0 20px 0;
+}
+
+.container4 {
+    width: auto;
+    height: 400px;
+}
+
+#key {
+    position: absolute;
+    left: 630px;
+    margin: 30px 0 85px 0;
+    width: 180.5px;
+    height: 42px;
+    color: black;
+    border-radius: 30px;
+    background-color: #000000;
+}
+
+#key a {
+    background-color: #000000;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff !important;
+    text-align: center;
+}
+
+.container5 {
+    width: 944px;
+    display: flex;
+    justify-content: center;
+}
+
+.container5 #social1 {
+    margin: 0 60px 46px 0;
+    cursor: pointer !important;
+}
+
+
+#socials {
+    color: #828282;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
